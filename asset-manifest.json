@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/travis-messageall/static/css/main.e5419d69.chunk.css",
+    "main.js": "/travis-messageall/static/js/main.78557fea.chunk.js",
+    "main.js.map": "/travis-messageall/static/js/main.78557fea.chunk.js.map",
+    "runtime-main.js": "/travis-messageall/static/js/runtime-main.43f216b2.js",
+    "runtime-main.js.map": "/travis-messageall/static/js/runtime-main.43f216b2.js.map",
+    "static/js/2.b9fd2ffa.chunk.js": "/travis-messageall/static/js/2.b9fd2ffa.chunk.js",
+    "static/js/2.b9fd2ffa.chunk.js.map": "/travis-messageall/static/js/2.b9fd2ffa.chunk.js.map",
+    "index.html": "/travis-messageall/index.html",
+    "precache-manifest.48c9ce53615ed6aed9cfa0adc8859835.js": "/travis-messageall/precache-manifest.48c9ce53615ed6aed9cfa0adc8859835.js",
+    "service-worker.js": "/travis-messageall/service-worker.js",
+    "static/css/main.e5419d69.chunk.css.map": "/travis-messageall/static/css/main.e5419d69.chunk.css.map",
+    "static/js/2.b9fd2ffa.chunk.js.LICENSE": "/travis-messageall/static/js/2.b9fd2ffa.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43f216b2.js",
+    "static/js/2.b9fd2ffa.chunk.js",
+    "static/css/main.e5419d69.chunk.css",
+    "static/js/main.78557fea.chunk.js"
+  ]
+}
