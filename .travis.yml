@@ -1,0 +1,15 @@
+sudo: true
+language: node_js
+node_js:
+        - "stable"
+git:
+        quest: true
+cache:
+        directories:
+                - node_modules
+script:
+        - npm test
+        - npm run build
+
+
+
