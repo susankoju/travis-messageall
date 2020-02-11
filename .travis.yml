@@ -8,7 +8,7 @@ cache:
         directories:
                 - node_modules
 script:
-        #- npm test
+        
         - npm run build
 deploy:
         provider: pages
@@ -18,5 +18,4 @@ deploy:
         on:
                 branch: master
 
-script:
-        - npm run deploy
+
