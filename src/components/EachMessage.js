@@ -17,7 +17,7 @@ export default class EachMessage extends React.Component {
     render() {
         let classStr = "";
         let sender = false;
-	    /* eslint eqeqeq: 1 */
+	    /* eslint eqeqeq: 0 */
         if (this.state.message.senderId == localStorage.getItem('userId')) // one string one number
         {
             classStr = " sender";
