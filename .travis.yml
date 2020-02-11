@@ -1,20 +1,18 @@
-sudo: true
-language: node_js
-node_js:
-        - "stable"
-git:
-        quest: true
-cache:
-        directories:
-                - node_modules
-script:
-        - npm run build
+sudo: required
+services:
+        - docker
+before_script:
+        - docker pull susankoju/travis-messageall || true
+script: 
+        - docker build --pull --cache-from susankoju/travis-messageall -t susankoju/tarvis-messageall .
+        - docker run susankoju/travis-messageall
+
+after_script:
+        - docker images
+before_deploy:
+        - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
 deploy:
-        provider: pages
-        skip_cleanup: true
-        github_token: $GITHUB_TOKEN
-        local_dir: build
+        provider: script
+        script: docker push susankoju/travis-messageall
         on:
                 branch: master
-
-
