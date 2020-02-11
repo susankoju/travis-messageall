@@ -11,7 +11,7 @@ if(env_mode ==='dev'){
 }
     else{
     config = {
-        basename: 'react-messageall',
+        basename: 'travis-messageall',
         dbname: '',
         host: '',
         port: '',
